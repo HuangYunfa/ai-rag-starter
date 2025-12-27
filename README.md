@@ -67,6 +67,8 @@ cp .env.example .env.local
 ```env
 DASHSCOPE_API_KEY=your_dashscope_api_key_here
 ```
+或者编辑系统环境变量 `DASHSCOPE_API_KEY`
+![variable](docs/images/variable.png)
 
 4. **启动开发服务器**
 ```bash
