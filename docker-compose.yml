@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY}
+      - LLM_PROVIDER=${LLM_PROVIDER:-qwen}
+      - MODEL_NAME=${MODEL_NAME:-qwen-max}
+    volumes:
+      - ./uploads:/app/uploads
+      - ./.milvus:/app/.milvus
+    restart: unless-stopped
+
