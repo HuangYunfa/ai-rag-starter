@@ -7,6 +7,8 @@
 ![LangChain](https://img.shields.io/badge/LangChain-0.2-green?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
+![系统演示](docs/images/demo.png)
+
 ## ✨ 功能特性
 
 ### 📚 知识库管理
